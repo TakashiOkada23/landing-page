@@ -15,12 +15,12 @@ a {
   padding: 0;
   color: #e5e7eb;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10%;
-
   background-color: #1f2937;
 }
 
@@ -47,4 +47,54 @@ header {
 
 .nav-links li a:hover {
   color: rgb(34, 192, 255);
+}
+
+.main-1 {
+  display: flex;
+  max-height: 500px;
+  justify-content: space-around;
+  background-color: #1f2937;
+}
+
+.m1-container {
+  display: flex;
+  /* box-sizing: border-box; */
+  justify-content: space-between;
+}
+
+.m1-left {
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px;
+  color: #f9faf8;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 16px 0px;
+}
+.m1-left button {
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  cursor: pointer;
+}
+.m1-right {
+  padding: 20px;
+  max-width: 500px;
+}
+
+.m1-right img {
+  max-height: 400px;
+  max-width: 400px;
 }
